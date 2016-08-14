@@ -22,12 +22,24 @@ h1, h2, h3, h4, h5 {
 
 }
 
-ol {
-
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 li {
 
+}
+
+a {
+    color: hotpink;
+}
+
+a:active,
+a:hover,
+a:focus {
+    color: slategrey;
 }
 
 /*--------------------------------------------------------------
@@ -37,6 +49,7 @@ li {
 .hero {
     background-color: #3f51b5;
     color: white;
+    margin-bottom: 20px;
     padding: 25px 0;
     text-align: center;
 }
@@ -50,3 +63,52 @@ li {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/*--------------------------------------------------------------
+* News
+---------------------------------------------------------------*/
+
+.news-item {
+    border-bottom: 1px solid slategrey;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.news-link {
+    display:block;
+    color: #3f51b5;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.news-meta-item {
+    display: inline;
+    margin-right: 15px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+* Content
+---------------------------------------------------------------*/
+
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+
+/*--------------------------------------------------------------
+* Container
+---------------------------------------------------------------*/
+
+.container {
+
+}
+
+/*--------------------------------------------------------------
+* Container
+---------------------------------------------------------------*/
+
+
